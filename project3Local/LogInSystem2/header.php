@@ -7,11 +7,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
-    <meta name=viewport content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
@@ -19,7 +16,7 @@
     <header>
       <nav class="nav-header-main">
         <a class="header-logo" href="index.php">
-          <img src="img/download.png" alt="mmtuts logo">
+          <img src="imgs\download.png" alt="DOA">
         </a>
         <ul>
           <li><a href="index.php">Home</a></li>
