@@ -16,12 +16,12 @@
     <header>
       <nav class="nav-header-main">
         <a class="header-logo" href="index.php">
-          <img src="imgs\download.png" alt="DOA">
+          <img src="imgs/download.png" alt="DOA">
         </a>
         <ul>
           <li><a href="index.php">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About me</a></li>
+          <li><a href="addReview.php">Add Review</a></li>
+          <li><a href="viewAllReviews.php">View All</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>

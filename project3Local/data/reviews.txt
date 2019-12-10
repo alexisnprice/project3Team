@@ -1,5 +1,4 @@
-, ,images/
-, ,images/
-, ,images/
-, ,images/
-bestio, Fast Food/Delivery $,images/
+help, Elegant $$$$,4,helpig,imgs/
+asdf, Fast-Casual $$,1,asdg,imgs/
+asdf, Fast-Casual $$,1,asdg,imgs/
+heleakelfja, Sit-Down $$$,1,aksdgadf;klgj,imgs/
