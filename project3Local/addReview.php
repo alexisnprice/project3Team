@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-<?php 
-if (!isset($_SESSION['id'])) {
-        header("Location:signup.php");
-} else
-include 'header.php';
-?> 
-
-<form method="post" enctype="multipart/form-data" action="reviewDBase.php">
-<head>
-        <link type="text/css" rel="stylesheet" href="styles.css" media="screen">
-    <meta charset="utf-8">
-</head>
-<h3>Submit a review!</h3>
-<div>
-=======
 <?php include 'header.php';?>
 <form method="post" enctype="multipart/form-data" action="reviewDBase.php">
 <head>
@@ -35,7 +19,6 @@ include 'header.php';
 
   <div class="rev">
   <div>
->>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258
 <p>Restaurant Name<br>
 <input type="text" name="restaurant_name">
 </p>
@@ -63,7 +46,7 @@ include 'header.php';
     <label for="star1" title="text">1 star</label>
 </div>
 <div>
-<p>Leave a comment</p>
+<p><br><br><br>Leave a comment<br></p>
 <input type="text" name="restaurant_comment">
 </div>
 
@@ -75,8 +58,5 @@ include 'header.php';
 <input type="submit">
 </form>
 </body>
-<<<<<<< HEAD
-=======
 </div>
->>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258
 </html>
