@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php 
 if (!isset($_SESSION['id'])) {
         header("Location:signup.php");
@@ -12,6 +13,29 @@ include 'header.php';
 </head>
 <h3>Submit a review!</h3>
 <div>
+=======
+<?php include 'header.php';?>
+<form method="post" enctype="multipart/form-data" action="reviewDBase.php">
+<head>
+        <link type="text/css" rel="stylesheet" href="styles/style.css" media="screen">
+        <link rel="stylesheet" href="theme/vendor/bootstrap/css/bootstrap-grid.css">
+    <meta charset="utf-8">
+</head>
+
+<header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Submit a Review!</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="rev">
+  <div>
+>>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258
 <p>Restaurant Name<br>
 <input type="text" name="restaurant_name">
 </p>
@@ -51,4 +75,8 @@ include 'header.php';
 <input type="submit">
 </form>
 </body>
+<<<<<<< HEAD
+=======
+</div>
+>>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258
 </html>

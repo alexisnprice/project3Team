@@ -25,4 +25,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <?php
 }
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258

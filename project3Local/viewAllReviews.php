@@ -1,8 +1,27 @@
+<<<<<<< HEAD
 <?php 
 if (!isset($_SESSION['id'])) {
         header("Location:signup.php");
 } else
 include 'header.php';
+=======
+<?php include 'header.php' ?>
+<link type="text/css" rel="stylesheet" href="styles/style.css" media="screen">
+<link rel="stylesheet" href="theme/vendor/bootstrap/css/bootstrap-grid.css">
+<header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h1 class="mb-5">Viewing All Previous Reviews</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<?php
+>>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258
 //read pets file
 function readReviews() {
     // read the file into memory; if there is an error then stop processing
@@ -31,7 +50,11 @@ function readReviews() {
 <head><meta charset='utf-8'></head>
 <link rel ="stylesheet">
 <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<<<<<<< HEAD
 <table class="mdl-data-table  mdl-shadow--2dp">
+=======
+<table class="mdl-data-table  mdl-shadow--2dp" class="table">
+>>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258
     <thead>
     <tr>
         <th>Name</th>
@@ -57,6 +80,10 @@ function readReviews() {
             echo '<td>' . $review['comment'] .  '</td>';
             echo '</tr>    ';    
         } 
+<<<<<<< HEAD
     ?>            
+=======
+    ?>          
+>>>>>>> fbec53b0fcc3b746a1b99b738f45436acdb6e258
     </tbody>
     </table>
